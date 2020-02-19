@@ -2,6 +2,10 @@
   "title": "Лабораторная работа №1",
   "items": [
     {
+            "type": "image",
+            "data": "img/preview.png"
+    },
+    {
       "type": "text",
       "data": [
         {
