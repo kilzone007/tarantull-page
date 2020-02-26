@@ -2,11 +2,8 @@
   "title": "Лабораторная работа №2",
   "items": [
     {
-
             "type": "image",
-
-            "data": "img/uml-class-diagramm.png"
-
+            "data": "img/uml-class-diagram.png"
     },
     {
       "type": "text",
