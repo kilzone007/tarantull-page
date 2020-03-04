@@ -1,8 +1,7 @@
 <!doctype html>
 <html lang="ru" ng-app="designApp">
 
-<head>	
-	
+<head>		
   <meta charset="utf-8">
   <title>Tarantull</title>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -61,6 +60,7 @@
   <canvas id="canvas" width="400" height="400"
 					style="background-color:black">
 			</canvas>
+	
 				<script>
 					var canvas = document.getElementById("canvas");
 					var ctx = canvas.getContext("2d");
@@ -77,11 +77,11 @@
 					  var grad;
 					  ctx.beginPath();
 					  ctx.arc(0, 0, radius, 0, 2*Math.PI);
-					  ctx.fillStyle = 'white';
+					  ctx.fillStyle = 'green';
 					  ctx.fill();
 					  grad = ctx.createRadialGradient(0,0,radius*0.95, 0,0,radius*1.05);
 					  grad.addColorStop(0, 'red');
-					  grad.addColorStop(0.5, 'white');
+					  grad.addColorStop(0.5, 'green');
 					  grad.addColorStop(1, 'red');
 					  ctx.strokeStyle = grad;
 					  ctx.lineWidth = radius*0.1;
