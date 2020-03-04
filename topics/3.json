@@ -2,6 +2,10 @@
   "title": "Лабораторная работа №3",
   "items": [
     {
+            "type": "image",
+            "data": "img/uml-class-diagram.png"
+    },
+    {
       "type": "text",
       "data": [
         {
